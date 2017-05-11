@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script>
+var web_sock = new WebSocket("ws://localhost:8086");
+web_sock.onopen = function (event) {
+	var msg = {
+		"type":"message",
+		"from":"index2"
+	}
+	web_sock.send(JSON.stringify(msg));
+}
+web_sock.onmessage = function (event) {
+	console.log("index2 received:", event.data);
+}
+</script>
+</head>
+<body style="margin: 0px; bgcolor=#fff;">
+index2 test
+</body>
