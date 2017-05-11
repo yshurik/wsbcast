@@ -28,7 +28,7 @@ wsbcast is simple server application. There are command line arguments to specif
 embedded help command line arg:
 
     $ wsbcast --help
-    Usage: /Users/alex/w/wsbcast/wsbcastd [options]
+    Usage: wsbcast [options]
     wsbcast: Web Socket broadcast server, from one client to all other.
 
     Options:
