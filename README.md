@@ -38,3 +38,6 @@ embedded help command line arg:
 
     $ wsbcast -d --port 8080
     
+## Example
+
+Look in "tests" folder. Run wsbcast server. Open all 3 html files in three different browser tabs. Reload one of them - you will spot message in JS consoles with example message in two other tabs.
