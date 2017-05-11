@@ -1,6 +1,9 @@
 # wsbcast
 
-Web Sockets simple server: it broadcasts message from one client to all other connected
+Web Sockets simple server: it broadcasts message from one client to all other connected.
+The server can be used as standard component in the infrastructure to make web applications
+to know about each other by making default web socket connection to wsbcast server and then listen
+messages from all other web applications.
 
 ## Contributing
 
