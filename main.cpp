@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 
 	opts.process(a);
 	bool debug = opts.isSet(dbg_opt);
-	if (debug) qDebug() << "Debug is on";
+	if (debug) { qDebug() << "Debug is on"; }
 	int port = opts.value(port_opt).toInt();
 
 	auto server = new BcastServer(port, debug);

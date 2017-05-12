@@ -46,7 +46,7 @@ void BcastServer::onTxtMsg(QString text) {
 	auto from = qobject_cast<QWebSocket *>(sender());
 	if (m_debug) { qDebug() << "Txt recv:" << qHash(from) << text; }
 	for(auto sock : m_socks) {
-		if (!sock) { continue; }
+		if (not sock) { continue; }
 		if (sock==from) { continue; }
 		sock->sendTextMessage(text);
 	}
@@ -56,7 +56,7 @@ void BcastServer::onBinaryMsg(QByteArray bytes) {
 	auto from = qobject_cast<QWebSocket *>(sender());
 	if (m_debug) { qDebug() << "Bin recv:" << qHash(from) << bytes; }
 	for(auto sock : m_socks) {
-		if (!sock) { continue; }
+		if (not sock) { continue; }
 		if (sock==from) { continue; }
 		sock->sendBinaryMessage(bytes);
 	}
