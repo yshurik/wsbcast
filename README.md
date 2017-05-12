@@ -1,5 +1,7 @@
 # wsbcast
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b45601ac26f4f85a711bf2716f6791f)](https://www.codacy.com/app/yshurik/wsbcast?utm_source=github.com&utm_medium=referral&utm_content=yshurik/wsbcast&utm_campaign=badger)
+
 Web Sockets simple server: it broadcasts message from one client to all other connected.
 The server can be used as standard component in the infrastructure to make web applications
 to know about each other by making default web socket connection to wsbcast server and then listen
