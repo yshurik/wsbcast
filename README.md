@@ -1,6 +1,7 @@
 # wsbcast
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b45601ac26f4f85a711bf2716f6791f)](https://www.codacy.com/app/yshurik/wsbcast?utm_source=github.com&utm_medium=referral&utm_content=yshurik/wsbcast&utm_campaign=badger)
+[![Build status](https://ci.appveyor.com/api/projects/status/1we15jt6crn5kwcw?svg=true)](https://ci.appveyor.com/project/yshurik/wsbcast)
 
 Web Sockets simple server: it broadcasts message from one client to all other connected.
 The server can be used as standard component in the infrastructure to make web applications
