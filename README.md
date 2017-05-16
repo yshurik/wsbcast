@@ -3,6 +3,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b45601ac26f4f85a711bf2716f6791f)](https://www.codacy.com/app/yshurik/wsbcast?utm_source=github.com&utm_medium=referral&utm_content=yshurik/wsbcast&utm_campaign=badger)
 [![Build status](https://ci.appveyor.com/api/projects/status/1we15jt6crn5kwcw?svg=true)](https://ci.appveyor.com/project/yshurik/wsbcast)
 [![Coverage Status](https://coveralls.io/repos/github/yshurik/wsbcast/badge.svg?branch=master)](https://coveralls.io/github/yshurik/wsbcast?branch=master)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
 Web Sockets simple server: it broadcasts message from one client to all other connected.
 The server can be used as standard component in the infrastructure to make web applications
